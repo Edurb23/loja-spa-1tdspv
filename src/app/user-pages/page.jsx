@@ -18,8 +18,8 @@ export default function UserPages() {
 
     return (
         <div>
-            <h1 className="text-3xl font-extrabold">User Pages</h1>
-            <ul className="flex flex-col">
+            <h1>User Pages</h1>
+            <ul>
                 {users.map((user) => (
                     <li key={user.id}>
                         <figure className="flex gap-2">
