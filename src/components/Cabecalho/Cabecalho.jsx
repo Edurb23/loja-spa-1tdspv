@@ -7,6 +7,9 @@ export default function Cabecalho() {
             <hr className=' border-red-600' />
             <nav className='menu'>
                 <ul>
+                    <li >
+                        <Link href="/login">Login</Link>
+                    </li>
 
                     <li >
                         <Link href="/produto/tenis">Tênis</Link>
